@@ -1,4 +1,4 @@
-import { Ingredient } from '../types';
+import type { Ingredient } from '../types';
 
 export const mockIngredients: Ingredient[] = [
   { id: 1, name: 'Chicken breast', caloriesPer100g: 165 },

@@ -1,0 +1,154 @@
+{
+  "ingredients": [
+    {
+      "id": 1,
+      "name": "Chicken breast",
+      "caloriesPer100g": 165
+    },
+    {
+      "id": 2,
+      "name": "Rice, cooked",
+      "caloriesPer100g": 130
+    },
+    {
+      "id": 3,
+      "name": "Garlic",
+      "caloriesPer100g": 149
+    },
+    {
+      "id": 4,
+      "name": "Lemon",
+      "caloriesPer100g": 29
+    },
+    {
+      "id": 5,
+      "name": "Spinach",
+      "caloriesPer100g": 23
+    },
+    {
+      "id": 6,
+      "name": "Olive oil",
+      "caloriesPer100g": 884
+    },
+    {
+      "id": 7,
+      "name": "Eggs",
+      "caloriesPer100g": 155
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Lemon chicken & rice",
+      "prepTimeMinutes": 25,
+      "servings": 2,
+      "isOfficial": true,
+      "authorId": 1,
+      "likesCount": 128,
+      "ingredients": [
+        {
+          "ingredientId": 1,
+          "amountInGrams": 400
+        },
+        {
+          "ingredientId": 2,
+          "amountInGrams": 200
+        },
+        {
+          "ingredientId": 3,
+          "amountInGrams": 10
+        },
+        {
+          "ingredientId": 4,
+          "amountInGrams": 100
+        }
+      ],
+      "steps": [
+        "Season the chicken with salt, pepper and minced garlic. Let it rest for 5 minutes.",
+        "Sear the chicken in a hot pan for 6-7 minutes per side until golden, then set aside.",
+        "In the same pan, add the cooked rice and a splash of water. Stir for 2 minutes.",
+        "Squeeze in the lemon juice, return the chicken to the pan and cover for 5 minutes.",
+        "Slice the chicken, plate over the rice and finish with lemon zest."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Spinach fried rice",
+      "prepTimeMinutes": 15,
+      "servings": 1,
+      "isOfficial": true,
+      "authorId": 1,
+      "likesCount": 84,
+      "ingredients": [
+        {
+          "ingredientId": 2,
+          "amountInGrams": 200
+        },
+        {
+          "ingredientId": 5,
+          "amountInGrams": 100
+        },
+        {
+          "ingredientId": 3,
+          "amountInGrams": 5
+        }
+      ],
+      "steps": [
+        "Heat oil in a pan and saute garlic until fragrant.",
+        "Add fresh spinach and cook until wilted.",
+        "Toss in cooked rice and stir-fry evenly with soy sauce."
+      ]
+    },
+    {
+      "title": "Mango smoothie bowl",
+      "isOfficial": false,
+      "prepTimeMinutes": 10,
+      "steps": [
+        "Blend mango and yogurt until smooth.",
+        "Pour into bowls and top with fruit."
+      ],
+      "likesCount": 0,
+      "authorId": 1,
+      "ingredients": [],
+      "servings": 2,
+      "id": 3
+    },
+    {
+      "title": "Honey chicken",
+      "prepTimeMinutes": 20,
+      "servings": 2,
+      "isOfficial": false,
+      "authorId": 1,
+      "ingredients": [],
+      "steps": [
+        "sdfnjadlfnala"
+      ],
+      "likesCount": 0,
+      "id": 4
+    }
+  ],
+  "mealLogs": [
+    {
+      "id": 101,
+      "userId": 1,
+      "recipeId": 2,
+      "recipeTitle": "Spinach fried rice",
+      "servingsEaten": 1,
+      "calories": 340,
+      "date": "2026-11-11",
+      "time": "8:15 AM"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Jamie G.",
+      "email": "jamie@fitpal.app",
+      "role": "MEMBER",
+      "dailyCalorieGoal": 2200,
+      "proteinGoalGrams": 110,
+      "carbsGoalGrams": 250,
+      "fatGoalGrams": 70
+    }
+  ]
+}

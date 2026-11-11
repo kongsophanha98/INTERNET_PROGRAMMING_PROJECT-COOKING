@@ -1,4 +1,4 @@
-import { MealLog, User } from '../types';
+import type { MealLog, User } from '../types';
 
 export const mockUser: User = {
   id: 1,

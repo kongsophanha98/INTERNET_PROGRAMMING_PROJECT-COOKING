@@ -1,6 +1,5 @@
 import type { CampusEvent } from "../types";
 
-// Hard-coded data for week 4. In week 5 it comes from an API.
 export const initialEvents: CampusEvent[] = [
   { id: 1, title: "Intro to Hackathons", category: "talk", startsAt: "2026-11-02T09:00:00Z", location: "Amphi A", capacity: 120, booked: 87 },
   { id: 2, title: "Git Workshop", category: "workshop", startsAt: "2026-11-04T13:30:00Z", location: "Lab 3", capacity: 30, booked: 27 },
